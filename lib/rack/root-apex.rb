@@ -10,7 +10,7 @@ module Rack
       request = Rack::Request.new(env)
 
       if request.host.starts_with?("www.")
-        [301, { "Location" => request.url.sub("//www.", "//") }, self]
+        [301, { "Location" => request.url.sub("//www.", "//") }, ["Moved Permanently\n"]]
       else
         @app.call(env)
       end
