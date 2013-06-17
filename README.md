@@ -1,4 +1,4 @@
-# Rack::Root::Apex
+# Rack::RootApex
 Redirects all requests with a 'www' in the hostname to the non-www host version.
 
 ## Installation
