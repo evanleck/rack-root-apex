@@ -1,12 +1,10 @@
 # Rack::Root::Apex
-
-TODO: Write a gem description
+Redirects all requests with a 'www' in the hostname to the non-www host version.
 
 ## Installation
-
 Add this line to your application's Gemfile:
 
-    gem 'rack-root-apex'
+    gem 'rack-root-apex', :require => 'rack/root-apex'
 
 And then execute:
 
@@ -18,10 +16,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    use Rack::RootApex
 
 ## Contributing
-
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
