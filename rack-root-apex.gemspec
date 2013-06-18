@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['evan.lecklider@gmail.com']
   spec.description   = 'Redirects all requests with a "www" in the hostname to the non-www host version.'
   spec.summary       = spec.description
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/l3ck/rack-root-apex'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
